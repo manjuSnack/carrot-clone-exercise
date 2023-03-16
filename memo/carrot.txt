@@ -1,0 +1,92 @@
+---
+
+NextJS / Carrot Market Clone
+
+---
+
+🍫 Next JS Quiz
+
+1. What is the difference between a library and a framework?
+
+: A framework calls our code, we call the library
+
+2. NextJS is a framework
+
+: True
+
+3. If i want to create a/about URL what should I do?
+
+: Create an 'about.jsx' file inside of the '/pages' folder.
+
+4. What is _app.jsx
+
+: It's a blueprient that NextJS will use to build all our pages
+
+5. Can we use CSS in NextJS without installing anything else?
+
+: True
+
+6. Why do we use getServerSideProps?
+
+: To run code on the backend before the page is rendered.
+
+7. What file do we have to create to get a URL like this: /posts/:id
+
+: src/pages/posts/[id].jsx
+
+8. What file do we have to create to catch this URL: /posts/1/section/2/comments/3
+
+: src/pages/posts/[...id].jsx 
+
+---
+
+🍫 NextJS, React18, Tailwind, Prisma
+
+-- Theory
+
+Server-Side Rendering
+Static Generation
+Incremental Static Regeneration
+Serverless Architecture
+Stateless Authentication
+Data Fetching and Caching
+React Suspense
+SSR Streaming
+Server Components
+
+-- Packages
+
+React18
+NextJS
+SWR
+Typescript
+Prisma
+TailwindCSS
+MDX
+Cloudflare Streams
+Cloudflare Images
+PlanetScale
+Vercel
+Twilio
+Sendgrid
+
+---
+
+#2 INTRODUCTION, #2.0~2.2 Welcome, Requirements, Recoding Plan
+
+#3 SETUP, #3.0 NextJS Setup
+
+--🥤 NextJS Setup
+: npx create-next-app@latest --typescript
+
+✔ What is your project named? … carrot-clone-exercise
+✔ Would you like to use ESLint with this project? … Yes
+✔ Would you like to use `src/` directory with this project? … Yes
+✔ Would you like to use experimental `app/` directory with this project? … Yes
+✔ What import alias would you like configured? … @/*
+
+--🥤 ReactJS 18 Version 이상 설치
+
+npm i next@latest react@rc react-dom@rc 
+
+
